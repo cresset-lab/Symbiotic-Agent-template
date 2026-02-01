@@ -1,0 +1,102 @@
+{
+  "participants": {
+    "agent": "019c1788-faf4-7170-9953-a84321132e16"
+  },
+  "results": [
+    {
+      "metrics": {
+        "rows_attempted": 5,
+        "rows_successful": 5,
+        "rows_skipped_by_filter": 2321,
+        "rows_scanned": 2495,
+        "total_matching_in_dataset": 174,
+        "correct": 4,
+        "accuracy": 0.8,
+        "success_rate": 1.0,
+        "total_failures": 0,
+        "elapsed_seconds": 6.52
+      },
+      "label_stats": {
+        "pred_counts": {
+          "STC": 4,
+          "SCC": 1
+        },
+        "pred_correct_counts": {
+          "STC": 4
+        }
+      },
+      "samples": [
+        {
+          "row_index": 1099,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1758
+        },
+        {
+          "row_index": 1100,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 864
+        },
+        {
+          "row_index": 1101,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1388
+        },
+        {
+          "row_index": 1102,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 871
+        },
+        {
+          "row_index": 1103,
+          "gold": "STC",
+          "pred": "SCC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "SCC",
+          "error": "",
+          "duration_ms": 869
+        }
+      ],
+      "errors": [],
+      "config_used": {
+        "dataset_path": "/home/agent/mutation_data/mutated_dataset.csv",
+        "ruleset_column": "ruleset",
+        "gold_column": "trad_result",
+        "max_rows": 5,
+        "rit_filter": "STC",
+        "row_timeout": 200,
+        "max_retries": 2,
+        "circuit_breaker_threshold": 5,
+        "allowed_labels": [
+          "SAC",
+          "SCC",
+          "STC",
+          "WAC",
+          "WCC",
+          "WTC"
+        ]
+      },
+      "early_termination_reason": ""
+    }
+  ]
+}
