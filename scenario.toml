@@ -1,16 +1,13 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
-
-[[participants]]
-agentbeats_id = ""
-name = "role_1_name"
+agentbeats_id = "019c178a-0f6f-7852-9fc8-f2aa84ebdf56"
 env = {}
 
 [[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = "019c1788-faf4-7170-9953-a84321132e16"
+name = "agent"
+env = {LLM_API_KEY = "${LLM_API_KEY}", LLM_API_BASE = "https://api.tokenfactory.nebius.com/v1/", LLM_MODEL = "deepseek-ai/DeepSeek-V3.2"}
 
 [config]
 # Add your assessment config here
+max_rows = 30
+rit_filter = "STC"
