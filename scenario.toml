@@ -10,4 +10,4 @@ env = {LLM_API_KEY = "${LLM_API_KEY}", LLM_API_BASE = "https://api.tokenfactory.
 [config]
 # Add your assessment config here
 max_rows = 5
-rit_filter = "SCC"
+rit_filter = "STC"
