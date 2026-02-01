@@ -1,0 +1,356 @@
+{
+  "participants": {
+    "agent": "019c1788-faf4-7170-9953-a84321132e16"
+  },
+  "results": [
+    {
+      "metrics": {
+        "rows_attempted": 30,
+        "rows_successful": 30,
+        "rows_skipped_by_filter": 2321,
+        "rows_scanned": 2495,
+        "total_matching_in_dataset": 174,
+        "correct": 13,
+        "accuracy": 0.4333,
+        "success_rate": 1.0,
+        "total_failures": 0,
+        "elapsed_seconds": 34.67
+      },
+      "label_stats": {
+        "pred_counts": {
+          "STC": 13,
+          "SCC": 2,
+          "WCC": 5,
+          "WTC": 5,
+          "SAC": 3,
+          "WAC": 2
+        },
+        "pred_correct_counts": {
+          "STC": 13
+        }
+      },
+      "samples": [
+        {
+          "row_index": 1099,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1906
+        },
+        {
+          "row_index": 1100,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1225
+        },
+        {
+          "row_index": 1101,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1361
+        },
+        {
+          "row_index": 1102,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1073
+        },
+        {
+          "row_index": 1103,
+          "gold": "STC",
+          "pred": "SCC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "SCC",
+          "error": "",
+          "duration_ms": 1457
+        },
+        {
+          "row_index": 1104,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1173
+        },
+        {
+          "row_index": 1105,
+          "gold": "STC",
+          "pred": "WCC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WCC",
+          "error": "",
+          "duration_ms": 897
+        },
+        {
+          "row_index": 1106,
+          "gold": "STC",
+          "pred": "WTC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WTC",
+          "error": "",
+          "duration_ms": 1123
+        },
+        {
+          "row_index": 1107,
+          "gold": "STC",
+          "pred": "WCC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WCC",
+          "error": "",
+          "duration_ms": 946
+        },
+        {
+          "row_index": 1108,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1814
+        },
+        {
+          "row_index": 1109,
+          "gold": "STC",
+          "pred": "WCC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WCC",
+          "error": "",
+          "duration_ms": 898
+        },
+        {
+          "row_index": 1110,
+          "gold": "STC",
+          "pred": "WTC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WTC",
+          "error": "",
+          "duration_ms": 841
+        },
+        {
+          "row_index": 1111,
+          "gold": "STC",
+          "pred": "WTC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WTC",
+          "error": "",
+          "duration_ms": 913
+        },
+        {
+          "row_index": 1112,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 862
+        },
+        {
+          "row_index": 1113,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 854
+        },
+        {
+          "row_index": 1114,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 821
+        },
+        {
+          "row_index": 1115,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1252
+        },
+        {
+          "row_index": 1116,
+          "gold": "STC",
+          "pred": "SCC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "SCC",
+          "error": "",
+          "duration_ms": 870
+        },
+        {
+          "row_index": 1117,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 926
+        },
+        {
+          "row_index": 1118,
+          "gold": "STC",
+          "pred": "WTC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WTC",
+          "error": "",
+          "duration_ms": 896
+        },
+        {
+          "row_index": 1119,
+          "gold": "STC",
+          "pred": "WTC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WTC",
+          "error": "",
+          "duration_ms": 1054
+        },
+        {
+          "row_index": 1120,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 968
+        },
+        {
+          "row_index": 1121,
+          "gold": "STC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 1749
+        },
+        {
+          "row_index": 1122,
+          "gold": "STC",
+          "pred": "WCC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WCC",
+          "error": "",
+          "duration_ms": 1065
+        },
+        {
+          "row_index": 1123,
+          "gold": "STC",
+          "pred": "SAC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "SAC",
+          "error": "",
+          "duration_ms": 1127
+        },
+        {
+          "row_index": 1124,
+          "gold": "STC",
+          "pred": "SAC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "SAC",
+          "error": "",
+          "duration_ms": 957
+        },
+        {
+          "row_index": 1125,
+          "gold": "STC",
+          "pred": "SAC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "SAC",
+          "error": "",
+          "duration_ms": 862
+        },
+        {
+          "row_index": 1126,
+          "gold": "STC",
+          "pred": "WCC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WCC",
+          "error": "",
+          "duration_ms": 1310
+        },
+        {
+          "row_index": 1127,
+          "gold": "STC",
+          "pred": "WAC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WAC",
+          "error": "",
+          "duration_ms": 1688
+        },
+        {
+          "row_index": 1128,
+          "gold": "STC",
+          "pred": "WAC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "WAC",
+          "error": "",
+          "duration_ms": 1102
+        }
+      ],
+      "errors": [],
+      "config_used": {
+        "dataset_path": "/home/agent/mutation_data/mutated_dataset.csv",
+        "ruleset_column": "ruleset",
+        "gold_column": "trad_result",
+        "max_rows": 30,
+        "rit_filter": "STC",
+        "row_timeout": 200,
+        "max_retries": 2,
+        "circuit_breaker_threshold": 5,
+        "allowed_labels": [
+          "SAC",
+          "SCC",
+          "STC",
+          "WAC",
+          "WCC",
+          "WTC"
+        ]
+      },
+      "early_termination_reason": ""
+    }
+  ]
+}
