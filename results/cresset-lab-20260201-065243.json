@@ -1,0 +1,99 @@
+{
+  "participants": {
+    "agent": "019c1788-faf4-7170-9953-a84321132e16"
+  },
+  "results": [
+    {
+      "metrics": {
+        "rows_attempted": 5,
+        "rows_successful": 5,
+        "rows_skipped_by_filter": 1772,
+        "rows_scanned": 2495,
+        "total_matching_in_dataset": 723,
+        "correct": 0,
+        "accuracy": 0.0,
+        "success_rate": 1.0,
+        "total_failures": 0,
+        "elapsed_seconds": 5.42
+      },
+      "label_stats": {
+        "pred_counts": {
+          "STC": 1
+        },
+        "pred_correct_counts": {}
+      },
+      "samples": [
+        {
+          "row_index": 376,
+          "gold": "SCC",
+          "pred": null,
+          "status": "parse_failed",
+          "is_correct": false,
+          "response_preview": "No valid label from zai-org/GLM-4.5-Air: \n<think>Let me analyze the rules to identify any Rule Interaction Threats (RITs).\n\nRule 1: \"0 Time Printed String\"\n- Trigger: Item OctoprintJobPrintTime change",
+          "error": "",
+          "duration_ms": 1697
+        },
+        {
+          "row_index": 377,
+          "gold": "SCC",
+          "pred": "STC",
+          "status": "success",
+          "is_correct": false,
+          "response_preview": "STC",
+          "error": "",
+          "duration_ms": 783
+        },
+        {
+          "row_index": 378,
+          "gold": "SCC",
+          "pred": null,
+          "status": "parse_failed",
+          "is_correct": false,
+          "response_preview": "No valid label from zai-org/GLM-4.5-Air: \n<think>Let me analyze the rules to identify any Rule Interaction Threats (RITs).\n\nRule 1: \"0 Time Printed String\"\n- Trigger: Item OctoprintJobPrintTime change",
+          "error": "",
+          "duration_ms": 669
+        },
+        {
+          "row_index": 379,
+          "gold": "SCC",
+          "pred": null,
+          "status": "parse_failed",
+          "is_correct": false,
+          "response_preview": "No valid label from zai-org/GLM-4.5-Air: \n<think>Let me analyze the rules to identify any Rule Interaction Threats (RITs).\n\nRule 1: \"1 Time Left String\"\nTrigger: Item OctoprintJobPrintTimeLeft changed",
+          "error": "",
+          "duration_ms": 710
+        },
+        {
+          "row_index": 380,
+          "gold": "SCC",
+          "pred": null,
+          "status": "parse_failed",
+          "is_correct": false,
+          "response_preview": "No valid label from zai-org/GLM-4.5-Air: \n<think>Let me analyze the rules to identify any Rule Interaction Threats (RITs).\n\nRule 1: \"1 Time Left String\"\nTrigger: Item OctoprintJobPrintTimeLeft changed",
+          "error": "",
+          "duration_ms": 686
+        }
+      ],
+      "errors": [],
+      "config_used": {
+        "dataset_path": "/home/agent/mutation_data/mutated_dataset.csv",
+        "ruleset_column": "ruleset",
+        "gold_column": "trad_result",
+        "max_rows": 5,
+        "rit_filter": "SCC",
+        "row_timeout": 200,
+        "max_retries": 2,
+        "circuit_breaker_threshold": 5,
+        "allowed_labels": [
+          "SAC",
+          "SCC",
+          "STC",
+          "WAC",
+          "WCC",
+          "WTC"
+        ]
+      },
+      "early_termination_reason": ""
+    }
+  ]
+}
