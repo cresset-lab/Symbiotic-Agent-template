@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/cresset-lab/symbiotic-agent-green@sha256:28651c069a7d9fdc510a4eb2e3ad4dc9a3d0c5dd1539c181981c66482563bcc7",
+    "agent": "ghcr.io/cresset-lab/symbiotic-agent-purple@sha256:b420ada768888cd366abc3db0b5eff4885ca7f8a9731e0b42ff622b741a8396d",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-01T06:58:28Z",
+  "github_actions": {
+    "run_url": "https://github.com/cresset-lab/Symbiotic-Agent-template/actions/runs/21558512084",
+    "run_logs_url": "https://api.github.com/repos/cresset-lab/Symbiotic-Agent-template/actions/runs/21558512084/logs",
+    "ref": "refs/heads/cresset-lab-patch-4-nebius",
+    "sha": "f23b00b475c865663f93f426cae8f883d533fa97",
+    "repository_url": "https://github.com/cresset-lab/Symbiotic-Agent-template",
+    "workflow_ref": "cresset-lab/Symbiotic-Agent-template/.github/workflows/run-scenario.yml@refs/heads/cresset-lab-patch-4-nebius",
+    "workflow_sha": "f23b00b475c865663f93f426cae8f883d533fa97"
+  }
+}
