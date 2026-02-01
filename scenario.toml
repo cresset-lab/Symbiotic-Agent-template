@@ -5,7 +5,7 @@ env = {}
 [[participants]]
 agentbeats_id = "019c1788-faf4-7170-9953-a84321132e16"
 name = "agent"
-env = {LLM_API_KEY = "${LLM_API_KEY}", LLM_API_BASE = "https://api.tokenfactory.nebius.com/v1/", LLM_MODEL = "zai-org/GLM-4.7-FP8"}
+env = {LLM_API_KEY = "${LLM_API_KEY}", LLM_API_BASE = "https://api.tokenfactory.nebius.com/v1/", LLM_MODEL = "deepseek-ai/DeepSeek-V3.2"}
 
 [config]
 # Add your assessment config here
