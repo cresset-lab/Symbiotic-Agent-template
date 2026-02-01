@@ -1,0 +1,101 @@
+{
+  "participants": {
+    "agent": "019c1788-faf4-7170-9953-a84321132e16"
+  },
+  "results": [
+    {
+      "metrics": {
+        "rows_attempted": 5,
+        "rows_successful": 5,
+        "rows_skipped_by_filter": 1772,
+        "rows_scanned": 2495,
+        "total_matching_in_dataset": 723,
+        "correct": 3,
+        "accuracy": 0.6,
+        "success_rate": 1.0,
+        "total_failures": 0,
+        "elapsed_seconds": 100.02
+      },
+      "label_stats": {
+        "pred_counts": {
+          "SCC": 3
+        },
+        "pred_correct_counts": {
+          "SCC": 3
+        }
+      },
+      "samples": [
+        {
+          "row_index": 376,
+          "gold": "SCC",
+          "pred": "SCC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "SCC",
+          "error": "",
+          "duration_ms": 17236
+        },
+        {
+          "row_index": 377,
+          "gold": "SCC",
+          "pred": null,
+          "status": "parse_failed",
+          "is_correct": false,
+          "response_preview": "Error - no LLM configured",
+          "error": "",
+          "duration_ms": 30030
+        },
+        {
+          "row_index": 378,
+          "gold": "SCC",
+          "pred": null,
+          "status": "parse_failed",
+          "is_correct": false,
+          "response_preview": "Error - no LLM configured",
+          "error": "",
+          "duration_ms": 30032
+        },
+        {
+          "row_index": 379,
+          "gold": "SCC",
+          "pred": "SCC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "SCC",
+          "error": "",
+          "duration_ms": 8808
+        },
+        {
+          "row_index": 380,
+          "gold": "SCC",
+          "pred": "SCC",
+          "status": "success",
+          "is_correct": true,
+          "response_preview": "SCC",
+          "error": "",
+          "duration_ms": 12397
+        }
+      ],
+      "errors": [],
+      "config_used": {
+        "dataset_path": "/home/agent/mutation_data/mutated_dataset.csv",
+        "ruleset_column": "ruleset",
+        "gold_column": "trad_result",
+        "max_rows": 5,
+        "rit_filter": "SCC",
+        "row_timeout": 60,
+        "max_retries": 2,
+        "circuit_breaker_threshold": 5,
+        "allowed_labels": [
+          "SAC",
+          "SCC",
+          "STC",
+          "WAC",
+          "WCC",
+          "WTC"
+        ]
+      },
+      "early_termination_reason": ""
+    }
+  ]
+}

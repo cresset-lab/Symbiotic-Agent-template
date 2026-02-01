@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/cresset-lab/symbiotic-agent-green@sha256:3ad0efe0de13fe72fd860d407a4809b060ddc4a011102d92df497e0d9658156a",
+    "agent": "ghcr.io/cresset-lab/symbiotic-agent-purple@sha256:683572ea12bf08a8d62f082a23de7895424b9b89b1231b19eb137dd2ecd57969",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-01T05:36:04Z",
+  "github_actions": {
+    "run_url": "https://github.com/cresset-lab/Symbiotic-Agent-template/actions/runs/21557454152",
+    "run_logs_url": "https://api.github.com/repos/cresset-lab/Symbiotic-Agent-template/actions/runs/21557454152/logs",
+    "ref": "refs/heads/cresset-lab-patch-3",
+    "sha": "791bc6d9a753cfc684606bab75e21288eecdb368",
+    "repository_url": "https://github.com/cresset-lab/Symbiotic-Agent-template",
+    "workflow_ref": "cresset-lab/Symbiotic-Agent-template/.github/workflows/run-scenario.yml@refs/heads/cresset-lab-patch-3",
+    "workflow_sha": "791bc6d9a753cfc684606bab75e21288eecdb368"
+  }
+}
