@@ -1,0 +1,103 @@
+{
+  "participants": {
+    "agent": "019c1788-faf4-7170-9953-a84321132e16"
+  },
+  "results": [
+    {
+      "metrics": {
+        "rows_attempted": 5,
+        "rows_successful": 0,
+        "rows_skipped_by_filter": 1772,
+        "rows_scanned": 2495,
+        "total_matching_in_dataset": 723,
+        "correct": 0,
+        "accuracy": 0.0,
+        "success_rate": 0.0,
+        "total_failures": 5,
+        "elapsed_seconds": 911.22
+      },
+      "label_stats": {
+        "pred_counts": {},
+        "pred_correct_counts": {}
+      },
+      "samples": [
+        {
+          "row_index": 376,
+          "gold": "SCC",
+          "pred": null,
+          "status": "timeout",
+          "is_correct": false,
+          "response_preview": "",
+          "error": "A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)",
+          "duration_ms": 60027
+        },
+        {
+          "row_index": 377,
+          "gold": "SCC",
+          "pred": null,
+          "status": "timeout",
+          "is_correct": false,
+          "response_preview": "",
+          "error": "A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)",
+          "duration_ms": 60027
+        },
+        {
+          "row_index": 378,
+          "gold": "SCC",
+          "pred": null,
+          "status": "timeout",
+          "is_correct": false,
+          "response_preview": "",
+          "error": "A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)",
+          "duration_ms": 60027
+        },
+        {
+          "row_index": 379,
+          "gold": "SCC",
+          "pred": null,
+          "status": "timeout",
+          "is_correct": false,
+          "response_preview": "",
+          "error": "A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)",
+          "duration_ms": 60028
+        },
+        {
+          "row_index": 380,
+          "gold": "SCC",
+          "pred": null,
+          "status": "timeout",
+          "is_correct": false,
+          "response_preview": "",
+          "error": "A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)",
+          "duration_ms": 60027
+        }
+      ],
+      "errors": [
+        "Row 376: A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)",
+        "Row 377: A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)",
+        "Row 378: A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)",
+        "Row 379: A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)",
+        "Row 380: A2AClientTimeoutError: Timeout Error: Client Request timed out (attempt 3/3)"
+      ],
+      "config_used": {
+        "dataset_path": "/home/agent/mutation_data/mutated_dataset.csv",
+        "ruleset_column": "ruleset",
+        "gold_column": "trad_result",
+        "max_rows": 5,
+        "rit_filter": "SCC",
+        "row_timeout": 60,
+        "max_retries": 2,
+        "circuit_breaker_threshold": 5,
+        "allowed_labels": [
+          "SAC",
+          "SCC",
+          "STC",
+          "WAC",
+          "WCC",
+          "WTC"
+        ]
+      },
+      "early_termination_reason": ""
+    }
+  ]
+}
