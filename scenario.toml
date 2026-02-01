@@ -5,7 +5,7 @@ env = {}
 [[participants]]
 agentbeats_id = "019c1788-faf4-7170-9953-a84321132e16"
 name = "agent"
-env = {GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LLM_MODEL="gemini-2.5-pro"}
+env = {GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LLM_MODEL="gemini-2.5-flash"}
 
 [config]
 # Add your assessment config here
